@@ -12,6 +12,9 @@ h1 {
   }
   body {
     margin: 2em;
+    background-image: url(images/948697.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   body, input[type="text"], button {
     color: #333;
