@@ -6,7 +6,7 @@ h1 {
     font-size: 250%;
   }
   h2, h3 {
-    color: #444;
+    color: #e6e6e6;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
   }
@@ -17,10 +17,14 @@ h1 {
     background-repeat: no-repeat;
   }
   body, input[type="text"], button {
-    color: #333;
+    color: #292929;
     font-family: Cambria, Georgia;
   }
   /* everywhere else */
   * {
     font-family: Arial, Helvetica, sans-serif;
   }
+
+.clear{
+  color: black;
+}

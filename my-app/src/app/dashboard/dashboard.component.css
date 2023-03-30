@@ -2,6 +2,8 @@
 
 h2 {
   text-align: center;
+  color: rgb(95, 227, 231);
+  font-size: 200%;
 }
 
 .heroes-menu {
@@ -23,17 +25,17 @@ h2 {
 }
 
 a {
-  background-color: #3f525c;
+  background-color: #1b8ac5;
   border-radius: 2px;
-  padding: 1rem;
-  font-size: 1.2rem;
+  padding: 2rem;
+  font-size: 1.3rem;
   text-decoration: none;
   display: inline-block;
   color: #fff;
   text-align: center;
   width: 100%;
   min-width: 70px;
-  margin: .5rem auto;
+  margin: 1rem auto;
   box-sizing: border-box;
 
   /* flexbox */

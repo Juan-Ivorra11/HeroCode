@@ -1,19 +1,32 @@
 /* HeroSearch private styles */
 
 label {
-    display: block;
+  display: flex;
+    justify-content: center;
     font-weight: bold;
     font-size: 1.2rem;
+    margin: auto;
     margin-top: 1rem;
-    margin-bottom: .5rem;
-  
+    margin-bottom: 0.5rem;
+    color: rgb(239, 246, 247);
+    -webkit-text-decoration: solid;
+    text-decoration: solid;
+    text-decoration-color: rgb(46, 46, 46);
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+    letter-spacing: 2px;
+    padding: 1em;
+    border-radius: 10%;
+    background-color: #336699;
+    width: min-content;
   }
   input {
     padding: .5rem;
     width: 100%;
-    max-width: 600px;
+    max-width: 300px;
     box-sizing: border-box;
-    display: block;
+    display: grid;
+    margin: auto;
   }
   
   input:focus {
@@ -24,24 +37,29 @@ label {
     list-style-type: none;
   }
   .search-result li a {
-    border-bottom: 1px solid gray;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
+    border-bottom: 1px solid rgb(77, 164, 245);
+    border-left: 1px solid rgb(77, 164, 245);
+    border-right: 1px solid rgb(77, 164, 245);
     display: inline-block;
     width: 100%;
     max-width: 600px;
     padding: .5rem;
     box-sizing: border-box;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
+    background-color: #1b83b36e;
   }
   
   .search-result li a:hover {
-    background-color: #435A60;
-    color: white;
+    background-color: #e7f5fa;
+    color: rgb(36, 36, 36);
   }
   
   ul.search-result {
-    margin-top: 0;
-    padding-left: 0;
+    padding: .5rem;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    display: grid;
+    margin: auto;
   }
